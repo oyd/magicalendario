@@ -1,10 +1,13 @@
 import React from "react";
+import DoWRow from "./DoWRow";
 
 const Calendar = () => {
     return (
-        <div>
-            <h2>Calendar Component</h2>
-        </div>
+        <table>
+            <thead>
+            <DoWRow />
+            </thead>
+        </table>
     );
 };
 
