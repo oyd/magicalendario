@@ -8,7 +8,7 @@ const DayOfWeek = ({ day }) => {
     return (
         <th className="dow">
             <span className="dowAstro">{dowAstro[day]}</span>
-            <span className="dowTitle">{Info.weekdays("long")[day]}</span>
+            <span className="dowTitle">{Info.weekdays("long")[(day + 6) % 7]}</span>
             <span className="dowChinese">{dowChinese[day]}</span>
         </th>
     );
