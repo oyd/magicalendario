@@ -9,12 +9,12 @@ const Calendar = () => {
 
     function _startOfWeek(d) {
         const days = (6 + d.weekday - firstDayOfWeek) % 7;
-        return d.minus({ days: days });
+        return d.minus({days: days});
     }
 
     function _endOfWeek(d) {
         const days = (7 - d.weekday + firstDayOfWeek) % 7;
-        return d.plus({ days: days });
+        return d.plus({days: days});
     }
 
     function renderMonth() {
@@ -27,10 +27,13 @@ const Calendar = () => {
             const week = Array.from({length: 7}, (_, j) => {
                 const d = firstDisplayDate.plus({days: i * 7 + j});
                 const dStr = d.toISODate();
+                let styles = ['day'];
+                styles.push('day' + d.weekday); // from day1 (Monday) to day7 (Sunday)
                 if (d < firstDateOfMonth || d > lastDateOfMonth) {
-                    return <td className="outside" key={dStr}></td>
+                    styles.push('outside');
+                    return <td className={styles.join(' ')} key={dStr}></td>
                 }
-                return <td key={dStr}>{d.day}</td>
+                return <td className={styles.join(' ')} key={dStr}>{d.day}</td>
             });
             return <tr key={i}>{week}</tr>
         });
@@ -40,7 +43,7 @@ const Calendar = () => {
     return (
         <table>
             <thead>
-            <DoWRow />
+                <DoWRow />
             </thead>
             <tbody>
                 {renderMonth()}
