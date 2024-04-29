@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <title>Friday Background</title>
+  <defs>
+    <linearGradient id="grlWhite" x1="0%" x2="100%">
+      <stop style="stop-color: #ffffff; stop-opacity: 0.2;" offset="0"/>
+      <stop style="stop-color: #ffffff; stop-opacity: 0;" offset="1"/>
+    </linearGradient>
+    <linearGradient id="grrGreen" x1="0%" x2="100%">
+      <stop style="stop-color: #1ad904; stop-opacity: 0;" offset="0"/>
+      <stop style="stop-color: #1ad904; stop-opacity: 0.2;" offset="1"/>
+    </linearGradient>
+  </defs>
+  <rect style="fill: url(#grlWhite);" x="0%" width="50%" y="0%" height="100%"/>
+  <rect style="fill: url(#grrGreen);" x="50%" width="50%" y="0%" height="100%"/>
+</svg>

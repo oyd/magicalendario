@@ -37,7 +37,7 @@ const Calendar = () => {
                     return <td className={styles.join(' ')} key={dStr}></td>
                 }
                 return <td className={styles.join(' ')} key={dStr}>
-                    {d.day}
+                    <strong>{d.day}</strong>
                     <TwentyEightMansions date={d} />
                     <Tonalpohualli date={d} />
                 </td>

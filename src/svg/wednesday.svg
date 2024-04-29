@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg">
   <title>Wednesday Background</title>
   <defs>
-    <linearGradient id="grlBlue" x1="0%" x2="100%">
-      <stop style="stop-color: #2ba2fc; stop-opacity: 0.2;" offset="0"/>
-      <stop style="stop-color: #2ba2fc; stop-opacity: 0;" offset="1"/>
+    <linearGradient id="grlAzul" x1="0%" x2="100%">
+      <stop style="stop-color: #05adf5; stop-opacity: 0.2;" offset="0"/>
+      <stop style="stop-color: #05adf5; stop-opacity: 0;" offset="1"/>
     </linearGradient>
     <linearGradient id="grrRed" x1="0%" x2="100%">
       <stop style="stop-color: #ff4242; stop-opacity: 0;" offset="0"/>
@@ -29,17 +29,17 @@
       <stop style="stop-color: #5c71fa; stop-opacity: 0;" offset="0"/>
       <stop style="stop-color: #5c71fa; stop-opacity: 0.2;" offset="1"/>
     </linearGradient>
-    <linearGradient id="grrViolet" x1="0%" x2="100%">
+    <linearGradient id="grrPurple" x1="0%" x2="100%">
       <stop style="stop-color: #cc34fa; stop-opacity: 0;" offset="0"/>
       <stop style="stop-color: #cc34fa; stop-opacity: 0.2;" offset="1"/>
     </linearGradient>
   </defs>
-  <rect style="fill: url(#grlBlue);" x="0%" width="50%" y="0%" height="100%"/>
+  <rect style="fill: url(#grlAzul);" x="0%" width="50%" y="0%" height="100%"/>
   <rect style="fill: url(#grrRed);" x="50%" width="50%" y="0%" height="14.2858%"/>
   <rect style="fill: url(#grrOrange);" x="50%" width="50%" y="14.2858%" height="14.2858%"/>
   <rect style="fill: url(#grrYellow);" x="50%" width="50%" y="28.5716%" height="14.2858%"/>
   <rect style="fill: url(#grrGreen);" x="50%" width="50%" y="42.8574%" height="14.2858%"/>
   <rect style="fill: url(#grrCyan);" x="50%" width="50%" y="57.1432%" height="14.2858%"/>
   <rect style="fill: url(#grrBlue);" x="50%" width="50%" y="71.4290%" height="14.2858%"/>
-  <rect style="fill: url(#grrViolet);" x="50%" width="50%" y="85.7148%" height="14.2852%"/>
+  <rect style="fill: url(#grrPurple);" x="50%" width="50%" y="85.7148%" height="14.2852%"/>
 </svg>
