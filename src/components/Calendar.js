@@ -1,4 +1,5 @@
 import React from "react";
+import './Calendar.css';
 import DoWRow from "./DoWRow";
 import UIStore from "../store/UIStore";
 import Tonalpohualli from "./Tonalpohualli";
@@ -37,8 +38,8 @@ const Calendar = () => {
                 }
                 return <td className={styles.join(' ')} key={dStr}>
                     {d.day}
-                    <Tonalpohualli date={d} />
                     <TwentyEightMansions date={d} />
+                    <Tonalpohualli date={d} />
                 </td>
             });
             return <tr key={i}>{week}</tr>
